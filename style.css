@@ -1,0 +1,78 @@
+body{
+    background-color: #3eb0ae;
+    color: white;
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 1rem;
+    
+
+}
+
+main{
+    text-align: center;
+    min-width: 20rem;
+    min-height: 20rem;
+    background-color: #ffffff;
+    color: black;
+    padding: 2rem;
+    border-radius: .5rem;
+    box-shadow: 0 5px  10px rgba(14, 95, 101, 0.5);
+    border: #174544 2px solid;
+
+}
+
+.password-field{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    border: 1px solid #174544;
+    background-color: #f3f3f3;
+    height: 3rem;
+    border-radius: .3rem;
+    padding: 0 1rem;
+}
+
+.controls{
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 1.1rem;
+
+}
+
+.control{
+    display: flex  ;
+    justify-content: space-between;
+    position: relative;
+}
+
+.control input[type="checkbox"]{
+    cursor: pointer;
+}
+
+#generate{
+    background-color: #3eb0ae ;
+    color: white;
+    padding: .5rem 1rem;
+    font-size: 1.1rem;
+    font-family: monospace;
+    border: none;
+    margin-top: 1rem;
+    border-radius: .3rem;
+
+}
+
+#generate:hover{
+    background-color: #3eb0ae;
+    opacity: .8;
+    color: black;
+    cursor: pointer;
+}
+
+
+

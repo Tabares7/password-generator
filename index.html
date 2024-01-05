@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link type="text/css" rel="stylesheet" href="style.css" />
+
+    <title>Document</title>
+  </head>
+  <body id="canvas">
+    <main>
+      <h1>Password Generator</h1>
+      <div class="password-field">
+        <p id="password">password here</p>
+        <button id="copy">C</button>
+      </div>
+        <section class="controls">
+          <div class="control">
+            <label for="length">Length</label>
+            <input
+              type="number"
+              name="length"
+              id="length"
+              min="4"
+              max="20"
+              value="20"
+            />
+          </div>
+          <div class="control">
+            <label for="uppercase">Uppercase</label>
+            <input type="checkbox" name="uppercase" id="uppercase" /> 
+          </div>
+          <div class="control">
+            <label for="lowercase">Lowercase</label>
+            <input type="checkbox" name="lowercase" id="lowercase" />
+          </div>
+          <div class="control">
+            <label for="numbers">Numbers</label>
+            <input type="checkbox" name="numbers" id="numbers" />
+          </div>
+          <div class="control">
+            <label for="symbols">Symbols</label>
+            <input type="checkbox" name="symbols" id="symbols" />
+          </div>
+          <button id="generate">Generate Password</button>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
